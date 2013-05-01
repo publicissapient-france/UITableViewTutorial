@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24452D4F8D664B9A956A86E3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249576C9594744679C51601F /* libPods.a */; };
 		5496A0A317302ED500A6A7EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5496A0A217302ED500A6A7EE /* UIKit.framework */; };
 		5496A0A517302ED500A6A7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5496A0A417302ED500A6A7EE /* Foundation.framework */; };
 		5496A0A717302ED500A6A7EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5496A0A617302ED500A6A7EE /* CoreGraphics.framework */; };
@@ -16,9 +17,16 @@
 		5496A0B517302ED500A6A7EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5496A0B417302ED500A6A7EE /* Default.png */; };
 		5496A0B717302ED500A6A7EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5496A0B617302ED500A6A7EE /* Default@2x.png */; };
 		5496A0B917302ED500A6A7EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5496A0B817302ED500A6A7EE /* Default-568h@2x.png */; };
+		5496A0C4173032DF00A6A7EE /* UITableViewTutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5496A0C3173032DE00A6A7EE /* UITableViewTutorial.storyboard */; };
+		5496A0C717303F0000A6A7EE /* GHRepositoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5496A0C617303F0000A6A7EE /* GHRepositoryTableViewController.m */; };
+		DB34D436D2C67985C8833D4A /* github@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34DAB8AA9E10BEC49C2EC9 /* github@2x.png */; };
+		DB34D496BFD3ABF7BD5A2F99 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = DB34D2117C62EFD899192A83 /* github.png */; };
+		DB34D5C2D9D60689DF41C48C /* GHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34D8BBF580163DA33EC508 /* GHRepository.m */; };
+		DB34DF2EC1E0217CDA0937D7 /* GHOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34DF3B41515CFF491B2484 /* GHOwner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		249576C9594744679C51601F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5496A09F17302ED500A6A7EE /* UITableViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5496A0A217302ED500A6A7EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5496A0A417302ED500A6A7EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +40,18 @@
 		5496A0B417302ED500A6A7EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5496A0B617302ED500A6A7EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5496A0B817302ED500A6A7EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5496A0C3173032DE00A6A7EE /* UITableViewTutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITableViewTutorial.storyboard; sourceTree = "<group>"; };
+		5496A0C517303F0000A6A7EE /* GHRepositoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRepositoryTableViewController.h; sourceTree = "<group>"; };
+		5496A0C617303F0000A6A7EE /* GHRepositoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRepositoryTableViewController.m; sourceTree = "<group>"; };
+		736C802CE9C54464BE879D53 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DB34D0296FD606823BD1B278 /* XBLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLogging.h; sourceTree = "<group>"; };
+		DB34D1C7C3CA5A08C1051924 /* GHRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRepository.h; sourceTree = "<group>"; };
+		DB34D1C84E9990957556F988 /* GHOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHOwner.h; sourceTree = "<group>"; };
+		DB34D2117C62EFD899192A83 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		DB34D8BBF580163DA33EC508 /* GHRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRepository.m; sourceTree = "<group>"; };
+		DB34DAB8AA9E10BEC49C2EC9 /* github@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github@2x.png"; sourceTree = "<group>"; };
+		DB34DB2974DE54F9F00D278D /* XBMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMappingProvider.h; sourceTree = "<group>"; };
+		DB34DF3B41515CFF491B2484 /* GHOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHOwner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,7 @@
 				5496A0A317302ED500A6A7EE /* UIKit.framework in Frameworks */,
 				5496A0A517302ED500A6A7EE /* Foundation.framework in Frameworks */,
 				5496A0A717302ED500A6A7EE /* CoreGraphics.framework in Frameworks */,
+				24452D4F8D664B9A956A86E3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +75,7 @@
 				5496A0A817302ED500A6A7EE /* UITableViewTutorial */,
 				5496A0A117302ED500A6A7EE /* Frameworks */,
 				5496A0A017302ED500A6A7EE /* Products */,
+				736C802CE9C54464BE879D53 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +93,7 @@
 				5496A0A217302ED500A6A7EE /* UIKit.framework */,
 				5496A0A417302ED500A6A7EE /* Foundation.framework */,
 				5496A0A617302ED500A6A7EE /* CoreGraphics.framework */,
+				249576C9594744679C51601F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,6 +104,16 @@
 				5496A0B117302ED500A6A7EE /* AppDelegate.h */,
 				5496A0B217302ED500A6A7EE /* AppDelegate.m */,
 				5496A0A917302ED500A6A7EE /* Supporting Files */,
+				5496A0C3173032DE00A6A7EE /* UITableViewTutorial.storyboard */,
+				5496A0C517303F0000A6A7EE /* GHRepositoryTableViewController.h */,
+				5496A0C617303F0000A6A7EE /* GHRepositoryTableViewController.m */,
+				DB34DF3B41515CFF491B2484 /* GHOwner.m */,
+				DB34D1C84E9990957556F988 /* GHOwner.h */,
+				DB34D8BBF580163DA33EC508 /* GHRepository.m */,
+				DB34D1C7C3CA5A08C1051924 /* GHRepository.h */,
+				DB34DB2974DE54F9F00D278D /* XBMappingProvider.h */,
+				DB34D0296FD606823BD1B278 /* XBLogging.h */,
+				DB34D85AA216B63B590DC3A3 /* Resource */,
 			);
 			path = UITableViewTutorial;
 			sourceTree = "<group>";
@@ -99,6 +132,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DB34D85AA216B63B590DC3A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DB34D9865382C0CDFAB61E55 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DB34D9865382C0CDFAB61E55 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB34DAB8AA9E10BEC49C2EC9 /* github@2x.png */,
+				DB34D2117C62EFD899192A83 /* github.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5496A0BC17302ED500A6A7EE /* Build configuration list for PBXNativeTarget "UITableViewTutorial" */;
 			buildPhases = (
+				59DD5AEC9BF14AD59C4F144B /* Check Pods Manifest.lock */,
 				5496A09B17302ED500A6A7EE /* Sources */,
 				5496A09C17302ED500A6A7EE /* Frameworks */,
 				5496A09D17302ED500A6A7EE /* Resources */,
+				A6E8A26E7CCD4EE6956737A9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,10 +206,44 @@
 				5496A0B517302ED500A6A7EE /* Default.png in Resources */,
 				5496A0B717302ED500A6A7EE /* Default@2x.png in Resources */,
 				5496A0B917302ED500A6A7EE /* Default-568h@2x.png in Resources */,
+				5496A0C4173032DF00A6A7EE /* UITableViewTutorial.storyboard in Resources */,
+				DB34D436D2C67985C8833D4A /* github@2x.png in Resources */,
+				DB34D496BFD3ABF7BD5A2F99 /* github.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59DD5AEC9BF14AD59C4F144B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+		A6E8A26E7CCD4EE6956737A9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5496A09B17302ED500A6A7EE /* Sources */ = {
@@ -166,6 +252,9 @@
 			files = (
 				5496A0AF17302ED500A6A7EE /* main.m in Sources */,
 				5496A0B317302ED500A6A7EE /* AppDelegate.m in Sources */,
+				5496A0C717303F0000A6A7EE /* GHRepositoryTableViewController.m in Sources */,
+				DB34DF2EC1E0217CDA0937D7 /* GHOwner.m in Sources */,
+				DB34D5C2D9D60689DF41C48C /* GHRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +332,7 @@
 		};
 		5496A0BD17302ED500A6A7EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736C802CE9C54464BE879D53 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableViewTutorial/UITableViewTutorial-Prefix.pch";
@@ -254,6 +344,7 @@
 		};
 		5496A0BE17302ED500A6A7EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736C802CE9C54464BE879D53 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITableViewTutorial/UITableViewTutorial-Prefix.pch";
@@ -282,6 +373,7 @@
 				5496A0BE17302ED500A6A7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

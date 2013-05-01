@@ -7,16 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "AFHTTPRequestOperationLogger.h"
+#import "SDURLCache.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [self setupUrlCache];
+    [self setupNetworkingLogger];
+
     return YES;
+}
+
+- (void)setupUrlCache {
+    SDURLCache *URLCache = [[SDURLCache alloc] initWithMemoryCapacity:1024*1024*2
+                                                         diskCapacity:1024*1024*20
+                                                             diskPath:[SDURLCache defaultCachePath]];
+
+    [NSURLCache setSharedURLCache:URLCache];
+}
+
+- (void)setupNetworkingLogger {
+    [[AFHTTPRequestOperationLogger sharedLogger] startLogging];
+    [[AFHTTPRequestOperationLogger sharedLogger] setLevel:AFLoggerLevelDebug];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
